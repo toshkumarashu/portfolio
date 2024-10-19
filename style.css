@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding-top: 100px;
+}
+
+#home img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f9f9f9;
+}
+
+.contact .max-width {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-content .column {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.contact-content .column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content .column form input,
+.contact-content .column form textarea {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.contact-content .column form button {
+    padding: 15px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-content .column form button:hover {
+    background-color: darkred;
+}
+
+
+#about{
+    background-color:cyan;
+}
+
+#projects{
+    background-color:darkturquoise;
+}
+
+.qualifications {
+    list-style-type: none;
+    padding: 0;
+}
+
+.qualifications li {
+    margin-bottom: 15px;
+}
+
+.qualifications strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.qualifications em {
+    font-style: italic;
+    color: #777;
+}
+
+
+@media (max-width: 768px) {
+    .contact-content .column {
+        width: 100%;
+    }
+}
+
